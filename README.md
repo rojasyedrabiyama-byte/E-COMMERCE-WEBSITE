@@ -30,10 +30,10 @@ Beginner-friendly layout
 Easy to customize
 
 <p align="center">
-  <img src="home.png" alt="program output" width="500">
-  <img src="HomeFooter.png" alt="program output" width="500">
-  <img src="shop.png" alt="program output" width="500">
-  <img src="product.png" alt="program output" width="500">
-  <img src="checkout.png" alt="program output" width="500">
-  <img src="about.png" alt="program output" width="500">
+  <img src="home.png" alt="program output" width="500"> <br><br>
+  <img src="HomeFooter.png" alt="program output" width="500"><br><br>
+  <img src="shop.png" alt="program output" width="500"><br><br>
+  <img src="product.png" alt="program output" width="500"><br><br>
+  <img src="checkout.png" alt="program output" width="500"><br><br>
+  <img src="about.png" alt="program output" width="500"><br><br>
 </p>
