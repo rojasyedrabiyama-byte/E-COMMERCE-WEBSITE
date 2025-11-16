@@ -1,2 +1,20 @@
-# E-COMMERCE-WEBSITE
-Smiley Walk is a simple e-commerce website made using HTML and CSS for a small footwear business. It includes a clean product list, basic layout, and easy-to-use design. This project is lightweight, mobile-friendly, and suitable for beginners who want to learn or customize a basic online store..
+Smiley Walk – Simple E-Commerce Website
+
+Smiley Walk is a basic e-commerce website created using HTML and CSS for my brother’s small footwear business.
+It includes clean pages and easy navigation suitable for showcasing footwear products.
+
+📌 Pages Included
+Home Page – Overview of the store
+Product Page – Displays available footwear
+Shop Page – Browse and select items
+Checkout Page – Simple order checkout layout
+About Page – Details about the business
+
+🛠️ Technologies Used
+HTML
+CSS
+
+🎯 Features
+Simple and clean UI
+Beginner-friendly layout
+Easy to customize
