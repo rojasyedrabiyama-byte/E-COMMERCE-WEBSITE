@@ -1,0 +1,107 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+body {
+  background: #fdfdfd;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #222;
+  padding: 1rem 2rem;
+}
+
+.logo {
+  color: #f9d342;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover,
+.nav-links a.active {
+  color: #f9d342;
+}
+
+/* Hero Section */
+.about-hero {
+  text-align: center;
+  padding: 3rem 2rem;
+  background: linear-gradient(135deg, #f9d342, #ffef96);
+}
+
+.about-hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.about-hero p {
+  font-size: 1.2rem;
+  max-width: 600px;
+  margin: auto;
+}
+
+/* Content Sections */
+.about-content,
+.collections,
+.why-choose {
+  padding: 2rem;
+  max-width: 900px;
+  margin: auto;
+}
+
+.about-content h2,
+.collections h2,
+.why-choose h2 {
+  margin-bottom: 1rem;
+  color: #222;
+}
+
+.collections ul {
+  list-style: disc;
+  padding-left: 1.5rem;
+}
+
+.features {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+}
+
+.feature {
+  background: #f9f9f9;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  text-align: center;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  background: #222;
+  color: #fff;
+  padding: 1rem;
+  margin-top: 2rem;
+}

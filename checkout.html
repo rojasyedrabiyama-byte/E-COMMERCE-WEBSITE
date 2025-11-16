@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Checkout | Smiley Walk</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="header">
+    <a class="brand" href="index.html">Smiley <span>Walk</span></a>
+    <nav class="nav">
+      <a href="index.html">Home</a>
+      <a href="shop.html">Shop</a>
+    </nav>
+  </header>
+
+  <section class="checkout container">
+    <h1>Checkout</h1>
+    <form class="checkout-form">
+      <fieldset>
+        <legend>Contact</legend>
+        <label>Full name
+          <input type="text" required>
+        </label>
+        <label>Email
+          <input type="email" required>
+        </label>
+        <label>Phone
+          <input type="tel" required>
+        </label>
+      </fieldset>
+
+      <fieldset>
+        <legend>Shipping</legend>
+        <label>Address
+          <textarea required></textarea>
+        </label>
+        <label>City
+          <input type="text" required>
+        </label>
+        <label>Pincode
+          <input type="text" required>
+        </label>
+        <label>State
+          <input type="text" value="Tamil Nadu" required>
+        </label>
+      </fieldset>
+
+      <fieldset>
+        <legend>Payment</legend>
+        <label>Method
+          <select>
+            <option>Cash on Delivery</option>
+            <option>Credit/Debit Card</option>
+            <option>UPI</option>
+          </select>
+        </label>
+      </fieldset>
+
+      <button type="submit" class="btn btn-primary">Place order</button>
+    </form>
+  </section>
+
+  <footer class="footer">
+    <p class="footer-copy">© 2025 Smiley Walk</p>
+  </footer>
+</body>
+</html>
